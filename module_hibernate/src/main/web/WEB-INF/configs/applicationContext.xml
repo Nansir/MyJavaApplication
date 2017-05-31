@@ -24,13 +24,13 @@
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
-                <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/springdemo?useSSL=false</prop><!--数据库地址-->
+                <prop key="hibernate.connection.url">jdbc:mysql://115.28.156.242:3306/space?useSSL=false</prop><!--数据库地址-->
                 <prop key="hibernate.connection.username">root</prop> <!--数据库账户-->
-                <prop key="hibernate.connection.password">admin</prop><!--数据库密码-->
-                <prop key="hibernate.show_sql">false</prop>
+                <prop key="hibernate.connection.password">root</prop><!--数据库密码-->
+                <prop key="hibernate.show_sql">true</prop>
                 <prop key="hibernate.connection.useUnicode">true</prop>
                 <prop key="hibernate.connection.characterEncoding">UTF-8</prop>
-                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.format_sql">false</prop>
                 <prop key="hibernate.use_sql_comments">true</prop>
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
                 <prop key="hibernate.connection.autoReconnect">true</prop>

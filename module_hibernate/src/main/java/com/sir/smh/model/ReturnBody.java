@@ -6,6 +6,29 @@ package com.sir.smh.model;
  */
 public class ReturnBody<T> {
 
+    public ReturnBody() {
+
+    }
+
+    public ReturnBody(T returnBody) {
+        setCode(200);
+        setMessage("succeed");
+        setReturnBody(returnBody);
+    }
+
+    public ReturnBody(int code, T returnBody) {
+        setCode(code);
+        setMessage("succeed");
+        setReturnBody(returnBody);
+    }
+
+
+    public ReturnBody(int code, String msg, T returnBody) {
+        setCode(code);
+        setMessage(msg);
+        setReturnBody(returnBody);
+    }
+
     private int code;
 
     private String message;

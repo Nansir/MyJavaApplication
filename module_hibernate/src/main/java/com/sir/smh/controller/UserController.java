@@ -1,5 +1,6 @@
 package com.sir.smh.controller;
 
+import com.sir.smh.model.ReturnBody;
 import com.sir.smh.model.UserEntity;
 import com.sir.smh.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -102,16 +103,11 @@ public class UserController {
         return "redirect:/admin/users";
     }
 
-    //login?account=123&&password=123
+    //login?account=1234&&password=22222
     @RequestMapping(value = "/login", params = {"account", "password"})
-    public @ResponseBody UserEntity login(@RequestParam("account") String account, @RequestParam("password") String password) {
-//        UserEntity entity = new UserEntity();
-//        entity.setAccount(account);
-//        entity.setPassword(password);
-
-
-      //  return entity;
-        return  userRepository.login(account,password);
+    @ResponseBody
+    public ReturnBody login(@RequestParam("account") String account, @RequestParam("password") String password) {
+        return new ReturnBody(userRepository.login(account, password));
     }
 
 }
