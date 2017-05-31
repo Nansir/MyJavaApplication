@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>SpringMvc</title>
+    <title>个人简历</title>
 </head>
 <body>
 <div align="center">

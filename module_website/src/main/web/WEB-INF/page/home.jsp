@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>个人简历</title>
+    <link rel="icon" href="../../resources/images/resume.png" type="image/X-icon">
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -44,24 +46,24 @@
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Vitae</span>
+                    <span class="sr-only">朱忆南</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand" href="home.jsp">Vitae</a></h1>
+                <h1><a class="navbar-brand" href="home.jsp">朱忆南</a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-                    <li><a class="page-scroll scroll active" href="#home">Home</a></li>
-                    <li><a class="page-scroll scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll scroll" href="#port">Portfolio</a></li>
-                    <li><a class="page-scroll scroll" href="#edu">Education</a></li>
-                    <li><a class="page-scroll scroll" href="#exp">Experience</a></li>
-                    <li><a class="page-scroll scroll" href="#contact">Contact</a></li>
+                    <li><a class="page-scroll scroll active" href="#home">首页</a></li>
+                    <li><a class="page-scroll scroll" href="#about">关于我</a></li>
+                    <li><a class="page-scroll scroll" href="#port">作品集</a></li>
+                    <li><a class="page-scroll scroll" href="#edu">教育</a></li>
+                    <li><a class="page-scroll scroll" href="#exp">经验</a></li>
+                    <li><a class="page-scroll scroll" href="#contact">联系</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -89,7 +91,7 @@
 
 <div class="about" id="about">
     <div class="container">
-        <h3 class="w3l-heading">About me</h3>
+        <h3 class="w3l-heading">关于我</h3>
         <div class="col-md-4 w3-about-top">
             <img src="../../resources/images/3.jpg" class="img-responsive" alt="about-img"/>
         </div>
@@ -173,13 +175,13 @@
 <!-- Portfolio -->
 <div class="portfolio" id="port">
     <div class="port-head">
-        <h3 class="w3l-heading">portfolio</h3>
+        <h3 class="w3l-heading">作品集</h3>
     </div>
     <ul class="simplefilter">
-        <li class="active" data-filter="all">All</li>
-        <li data-filter="1">Design1</li>
-        <li data-filter="2">Design2</li>
-        <li data-filter="3">Design3</li>
+        <li class="active" data-filter="all">全部</li>
+        <li data-filter="1">作品照</li>
+        <li data-filter="2">个人照</li>
+        <li data-filter="3">朋友照</li>
     </ul>
 
     <div class="filtr-container">
@@ -288,7 +290,7 @@
 <!--Education-->
 <div id="edu" class="agile-edu">
     <div class="container">
-        <h3 class="w3l-heading">Education</h3>
+        <h3 class="w3l-heading">教育</h3>
         <div class="work-info">
             <div class="col-md-6 col-sm-6 col-xs-6 work-right work-right2">
             </div>
@@ -360,7 +362,7 @@
 <!-- work-experience-->
 <div id="exp" class="agile-edu exp">
     <div class="container">
-        <h3 class="w3l-heading">Experience</h3>
+        <h3 class="w3l-heading">工作经验</h3>
         <div class="work-info">
             <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2">
             </div>
@@ -429,7 +431,7 @@
 <!-- contact -->
 <div id="contact" class="w3_agileits-contact">
     <div class="container">
-        <h3 class="w3l-heading">contact</h3>
+        <h3 class="w3l-heading">联系</h3>
         <div class="w3_agile-contact  jarallax text-center">
             <form action="#" method="get">
                 <input type="text" placeholder="Name" name="name" class="name" required>
@@ -439,8 +441,8 @@
                 <input type="submit" value="send">
             </form>
             <h4>or</h4>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <h5>+12 345 6789</h5>
+            <a href="mailto:445181052@qq.com">445181052@qq.com</a>
+            <h5>18575572721</h5>
             <ul class="social-icons-w3_agile">
                 <li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
                 <li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
@@ -452,7 +454,7 @@
 <!-- footer -->
 <div class="agileits_w3layouts-footer text-center">
     <div class="container">
-        <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+        <p>Copyright &copy; 2017.nansir. All rights reserved
         </p>
     </div>
 </div>
